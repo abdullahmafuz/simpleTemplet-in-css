@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #DFE9EA;
+    position: fixed;
+    bottom: 0;
+    margin-left: 20px;
+    width: 52%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 17px;
+    border-right: 1px solid #bbb;
+
+
+}
+
+.navbar a:last-child {
+    border-right: none;
+}
+
+.navbar a:hover {
+    color: #000;
+}
+
+.img {
+    padding: 15px 15px;
+    text-decoration: none
+}
+
+.btn {
+    position: relative;
+    left: 15%;
+    top: 250px;
+}
+
+.img a {
+
+    padding: 10px;
+    text-decoration: none;
+
+
+    background-color: rgba(44, 186, 35);
+    color: white
+}
+
+.img a:hover {
+    background-color: rgba(44, 186, 35, 0.5);
+
+}
+
+img {
+    width: 140%;
+
+}
+
+
+
+
+
+
+
+
+/*Vertical Navigation Bar*/
+
+.vnav h3{
+    position: absolute;
+    top :10px;
+    text-align: center;
+    font-size:16px; 
+    padding: 10px;
+}
+.vnav ul {
+    position: fixed;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 20%;
+    background-color:#DFE9EA;
+    height: 100%;
+    overflow: auto;
+    
+
+    
+}
+.vnav li{
+    height: 17%;
+    text-align: center;
+    margin-bottom: 30px;
+    
+   
+}
+.vnav li a {
+  display: grid;
+  color: black;
+  padding: 30px 10px 10px 10px;
+  text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);;
+   
+}
+.vnav li a :hover{
+    color: black;
+}
+.vnav li a i{
+    margin: px;
+    padding: 10px;
+    font-size:100px;
+}
+
